@@ -7,7 +7,7 @@ Neste repositório se encontram alguns arquivos referentes às atividades e curs
 02. [ :heavy_check_mark: ] Bem-vindo à DIO;
 03. [ :heavy_check_mark: ] Lógica de programação essencial;
 04. [ :heavy_check_mark: ] Introdução ao Git e ao GitHub;
-05. [ :clock9: ] SQL Server - Criando suas primeiras consultas;
+05. [ :heavy_check_mark: ] SQL Server - Criando suas primeiras consultas;
 06. [ :heavy_check_mark: ] Desenvolvimento básico em Java;
 07. [ :clock9: ] Desenvolvimento avançado em Java;
 08. [ :heavy_check_mark: ] Iniciando a programação em Java;
