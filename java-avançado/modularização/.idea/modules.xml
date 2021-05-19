@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/matheus.phelipe.core.iml" filepath="$PROJECT_DIR$/matheus.phelipe.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modularização.iml" filepath="$PROJECT_DIR$/modularização.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulos.matheus.core.iml" filepath="$PROJECT_DIR$/modulos.matheus.core.iml" />
+    </modules>
+  </component>
+</project>

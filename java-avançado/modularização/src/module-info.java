@@ -1,0 +1,2 @@
+module modulos.matheus.core {
+}
