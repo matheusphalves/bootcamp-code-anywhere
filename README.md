@@ -9,7 +9,7 @@ Neste repositório se encontram alguns arquivos referentes às atividades e curs
 04. [ :heavy_check_mark: ] Introdução ao Git e ao GitHub;
 05. [ :heavy_check_mark: ] SQL Server - Criando suas primeiras consultas;
 06. [ :heavy_check_mark: ] Desenvolvimento básico em Java;
-07. [ :clock9: ] Desenvolvimento avançado em Java;
+07. [ :heavy_check_mark: ] Desenvolvimento avançado em Java;
 08. [ :heavy_check_mark: ] Iniciando a programação em Java;
 09. [ :heavy_check_mark: ] Aprenda o que são Estruturas de Dados e Algoritmos;
 10. [ :heavy_check_mark: ] Implementando Collections e Streams com Java;
