@@ -20,6 +20,10 @@ public class Aluno {
         this.estado = estado;
     }
 
+    public Aluno(){
+
+    }
+
     public int getId() {
         return id;
     }
@@ -50,5 +54,15 @@ public class Aluno {
 
     public void setEstado(String estado) {
         this.estado = estado;
+    }
+
+    @Override
+    public String toString() {
+        return "Aluno{" +
+                "id=" + id +
+                ", nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", estado='" + estado + '\'' +
+                '}';
     }
 }
