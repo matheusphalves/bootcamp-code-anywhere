@@ -9,7 +9,7 @@ import java.util.Properties;
 
 public class ConnectionFactory {
 
-    public static void main(String[] args) {
+    public static Connection getConnection() {
         Connection conn = null;
         //carregar arquivos com propriedades
         try(InputStream input = ConnectionFactory.class.getClassLoader().getResourceAsStream("connection.properties")){
@@ -32,6 +32,7 @@ public class ConnectionFactory {
             try{
                 conn = DriverManager.getConnection(connectionUrl, user, password);
                 System.out.println("Conectado!");
+                return conn;
             }catch (SQLException e){
                 System.out.println("Falha ao criar conexão");
                 throw new RuntimeException(e);
@@ -41,6 +42,7 @@ public class ConnectionFactory {
         }catch (IOException e){
             System.out.println("Falha ao carregar propriedades");
             e.printStackTrace();
+            return null;
         }
     }
 
