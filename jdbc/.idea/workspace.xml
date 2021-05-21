@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be8d8b6-3137-4a6d-8ffc-4afbbe23fdb6" name="Default Changelist" comment="" />
+    <list default="true" id="6be8d8b6-3137-4a6d-8ffc-4afbbe23fdb6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,6 +35,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RunManager">
     <configuration name="ConnectionJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1621556870301</updated>
       <workItem from="1621556871691" duration="363000" />
-      <workItem from="1621557254588" duration="1224000" />
+      <workItem from="1621557254588" duration="1823000" />
     </task>
     <servers />
   </component>
