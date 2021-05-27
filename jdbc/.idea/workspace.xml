@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6be8d8b6-3137-4a6d-8ffc-4afbbe23fdb6" name="Default Changelist" comment="">
+    <list default="true" id="6be8d8b6-3137-4a6d-8ffc-4afbbe23fdb6" name="Default Changelist" comment="updated workspace.xml">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/AlunoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/AlunoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/ConnectionFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/ConnectionFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/part2/QueriesExecution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/part2/QueriesExecution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part2/Aluno.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/Aluno.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part2/AlunoDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/AlunoDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part2/ConnectionFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/ConnectionFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/part2/QueriesExecution.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/part2/QueriesExecution.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,9 +118,64 @@
       <workItem from="1621614298204" duration="122000" />
       <workItem from="1621614442607" duration="1571000" />
     </task>
+    <task id="LOCAL-00001" summary="added aluno model">
+      <created>1621638907926</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621638907926</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added aluno DAO implementation">
+      <created>1621638935358</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621638935358</updated>
+    </task>
+    <task id="LOCAL-00003" summary="added ConnectionFactory class">
+      <created>1621638949617</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1621638949617</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added QueriesExecution class">
+      <created>1621638960797</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621638960797</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updated workspace.xml">
+      <created>1621638978876</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621638978876</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added aluno model" />
+    <MESSAGE value="added aluno DAO implementation" />
+    <MESSAGE value="added ConnectionFactory class" />
+    <MESSAGE value="added QueriesExecution class" />
+    <MESSAGE value="updated workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated workspace.xml" />
   </component>
 </project>
