@@ -15,7 +15,7 @@ Neste repositório se encontram alguns arquivos referentes às atividades e curs
 10. [ :heavy_check_mark: ] Implementando Collections e Streams com Java;
 11. [ :heavy_check_mark: ] Solucionando desafios matemáticos em Java;
 12. [ :heavy_check_mark: ] Trabalhando com Banco de Dados utilizando JDBC e JPA;
-13. [ :clock9: ] Introdução ao framework Spring Boot;
+13. [ :heavy_check_mark: ] Introdução ao framework Spring Boot;
 14. [ :clock9: ] Desenvolvimento de um sistema de gerenciamento de pessoas em API REST com Spring Boot;
 15. [ :clock9: ] Microsserviços em Spring Cloud com Java;
 16. [ :clock9: ] Criando API Gateways no ambiente Azure Spring Cloud;
