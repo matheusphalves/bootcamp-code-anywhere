@@ -10,13 +10,12 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @Service
 public class PersonService {
 
-    private PersonRepository personRepository;
+    private final PersonRepository personRepository;
 
     private final PersonMapper personMapper = PersonMapper.INSTANCE;
 
@@ -25,14 +24,10 @@ public class PersonService {
         this.personRepository = personRepository;
     }
 
-
     public MessageResponseDTO createPerson(PersonDTO personDTO){
         Person personToSave = this.personMapper.toModel(personDTO);
         Person savedPerson = this.personRepository.save(personToSave);
-        return MessageResponseDTO
-                .builder()
-                .message("Created person with ID " + savedPerson.getId())
-                .build();
+        return getMessageResponseDTO("Created", String.valueOf(savedPerson.getId()));
     }
 
     public List<PersonDTO> listAll() {
@@ -54,8 +49,25 @@ public class PersonService {
         this.personRepository.deleteById(id);
     }
 
+    public MessageResponseDTO updateById(Long id, PersonDTO personDTO) throws PersonNotFoundException {
+       this.verifyIfExists(id);
+       this.delete(id); //precisa?
+        Person personToUpdate = this.personMapper.toModel(personDTO);
+        Person updatedPerson = this.personRepository.save(personToUpdate);
+        return this.getMessageResponseDTO("Updated", String.valueOf(updatedPerson.getId()));
+
+    }
+
+    private MessageResponseDTO getMessageResponseDTO(String message, String id) {
+        return MessageResponseDTO
+                .builder()
+                .message( message + " person with ID " + id)
+                .build();
+    }
+
     private Person verifyIfExists(Long id) throws PersonNotFoundException {
         return this.personRepository.findById(id)
                 .orElseThrow(() -> new PersonNotFoundException(id));
     }
+
 }
